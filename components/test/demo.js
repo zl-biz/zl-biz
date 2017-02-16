@@ -3198,7 +3198,7 @@ webpackJsonp([0,14],{
 
 	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-	var _slicedToArray2 = __webpack_require__(86);
+	var _slicedToArray2 = __webpack_require__(85);
 
 	var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
@@ -3226,7 +3226,7 @@ webpackJsonp([0,14],{
 
 	var _splitObject4 = _interopRequireDefault(_splitObject3);
 
-	var _rcTouchable = __webpack_require__(114);
+	var _rcTouchable = __webpack_require__(113);
 
 	var _rcTouchable2 = _interopRequireDefault(_rcTouchable);
 
@@ -3498,6 +3498,13 @@ webpackJsonp([0,14],{
 
 /***/ },
 
+/***/ 83:
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = { "default": __webpack_require__(89), __esModule: true };
+
+/***/ },
+
 /***/ 84:
 /***/ function(module, exports, __webpack_require__) {
 
@@ -3508,22 +3515,15 @@ webpackJsonp([0,14],{
 /***/ 85:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(91), __esModule: true };
-
-/***/ },
-
-/***/ 86:
-/***/ function(module, exports, __webpack_require__) {
-
 	"use strict";
 
 	exports.__esModule = true;
 
-	var _isIterable2 = __webpack_require__(85);
+	var _isIterable2 = __webpack_require__(84);
 
 	var _isIterable3 = _interopRequireDefault(_isIterable2);
 
-	var _getIterator2 = __webpack_require__(84);
+	var _getIterator2 = __webpack_require__(83);
 
 	var _getIterator3 = _interopRequireDefault(_getIterator2);
 
@@ -3569,6 +3569,15 @@ webpackJsonp([0,14],{
 
 /***/ },
 
+/***/ 89:
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(43);
+	__webpack_require__(30);
+	module.exports = __webpack_require__(108);
+
+/***/ },
+
 /***/ 90:
 /***/ function(module, exports, __webpack_require__) {
 
@@ -3578,20 +3587,11 @@ webpackJsonp([0,14],{
 
 /***/ },
 
-/***/ 91:
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(43);
-	__webpack_require__(30);
-	module.exports = __webpack_require__(110);
-
-/***/ },
-
-/***/ 109:
+/***/ 108:
 /***/ function(module, exports, __webpack_require__) {
 
 	var anObject = __webpack_require__(16)
-	  , get      = __webpack_require__(108);
+	  , get      = __webpack_require__(107);
 	module.exports = __webpack_require__(12).getIterator = function(it){
 	  var iterFn = get(it);
 	  if(typeof iterFn != 'function')throw TypeError(it + ' is not iterable!');
@@ -3600,10 +3600,10 @@ webpackJsonp([0,14],{
 
 /***/ },
 
-/***/ 110:
+/***/ 109:
 /***/ function(module, exports, __webpack_require__) {
 
-	var classof   = __webpack_require__(92)
+	var classof   = __webpack_require__(91)
 	  , ITERATOR  = __webpack_require__(13)('iterator')
 	  , Iterators = __webpack_require__(24);
 	module.exports = __webpack_require__(12).isIterable = function(it){
@@ -3615,7 +3615,7 @@ webpackJsonp([0,14],{
 
 /***/ },
 
-/***/ 114:
+/***/ 113:
 /***/ function(module, exports, __webpack_require__) {
 
 	// inspired by react-native

@@ -6116,6 +6116,7 @@ webpackJsonp([5,4],[
 
 	function collect(nextProps, callback) {
 	  var pageData = nextProps.location.pathname === 'changelog' ? nextProps.data.CHANGELOG : nextProps.pageData;
+	  console.log(pageData.index[locale]);
 	  var pageDataPromise = typeof pageData === 'function' ? pageData() : (pageData[locale] || pageData.index[locale] || pageData.index)();
 	  var promises = [pageDataPromise];
 	  var demos = nextProps.utils.get(nextProps.data, ['components', nextProps.params.component, 'demo']);
@@ -6198,17 +6199,6 @@ webpackJsonp([5,4],[
 	    return _react2.default.createElement(
 	      'div',
 	      { id: name, style: style, className: 'demo' },
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'demoName' },
-	        _react2.default.createElement('a', { className: 'icon', href: '/' + linkUrl + window.location.search }),
-	        demoMeta.english,
-	        _react2.default.createElement(
-	          'span',
-	          { className: 'ch' },
-	          demoMeta.chinese
-	        )
-	      ),
 	      demoSort.map(function (i, index) {
 	        return _react2.default.createElement(
 	          'div',
