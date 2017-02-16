@@ -3009,7 +3009,7 @@ webpackJsonp([15,14],[
 	    var path = doc.meta.filename.split('/')[1];
 	    var isLocalMode = window.location.port;
 	    var host = isLocalMode ? 'localhost:8002' : window.location.host;
-	    var demoUrl = protocol + '/' + host + '/kitchen-sink/' + path + '/';
+	    var demoUrl = protocol + '//' + host + '/kitchen-sink/' + path + '/';
 
 	    var PopoverContent = _react2.default.createElement(
 	      'div',
