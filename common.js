@@ -30,7 +30,7 @@
 /******/ 	// "0" means "already loaded"
 /******/ 	// Array means "loading", array contains callbacks
 /******/ 	var installedChunks = {
-/******/ 		14:0
+/******/ 		12:0
 /******/ 	};
 
 /******/ 	// The require function
@@ -76,7 +76,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "" + ({"0":"components/test/demo","1":"components/list/demo","2":"docs/react/introduce.md","3":"docs/react/install.md","4":"docs/react/getting-started.md","5":"docs/react/development.md","6":"docs/react/design.md","7":"docs/react/conventions.md","8":"docs/pattern/unit.md","9":"docs/pattern/font.md","10":"docs/pattern/color.md","11":"docs/pattern/border.md","12":"components/test/index.md","13":"components/list/index.md","15":"index"}[chunkId]||chunkId) + ".js";
+/******/ 			script.src = __webpack_require__.p + "" + ({"0":"components/test/demo","1":"components/list/demo","2":"docs/react/introduce.md","3":"docs/react/getting-started.md","4":"docs/react/design.md","5":"docs/react/components.md","6":"docs/pattern/unit.md","7":"docs/pattern/font.md","8":"docs/pattern/color.md","9":"docs/pattern/border.md","10":"components/test/index.md","11":"components/list/index.md","13":"index"}[chunkId]||chunkId) + ".js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};

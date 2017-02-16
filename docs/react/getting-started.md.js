@@ -1,6 +1,6 @@
-webpackJsonp([4,14],{
+webpackJsonp([3,12],{
 
-/***/ 234:
+/***/ 233:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -8,7 +8,7 @@ webpackJsonp([4,14],{
 	    "article",
 	    [
 	      "h3",
-	      "1. 安装工具"
+	      "1. 环境依赖"
 	    ],
 	    [
 	      "p",
@@ -25,22 +25,15 @@ webpackJsonp([4,14],{
 	    ],
 	    [
 	      "h3",
-	      "2. 创建一个项目"
-	    ],
-	    [
-	      "h3",
-	      "3. 使用组件"
+	      "2. 安装"
 	    ],
 	    [
 	      "p",
-	      [
-	        "a",
-	        {
-	          "title": null,
-	          "href": "/docs/react/introduce#使用"
-	        },
-	        "见此使用示例"
-	      ]
+	      "npm install --prefix local biz-mobile"
+	    ],
+	    [
+	      "h3",
+	      "3. 使用示例"
 	    ],
 	    [
 	      "h3",
